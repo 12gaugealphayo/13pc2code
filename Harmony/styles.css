@@ -1,0 +1,91 @@
+:root {
+    --backgound-color: rgba();
+    --btn-color: rgba();
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    --background-color--- :
+}
+
+
+
+.main-header {
+    height: 40vh;
+    position: relative;
+    background: url(imgs/kiKoprGLT.jpg);
+    border: 2px solid;
+    background: linear-gradient(to top,black, transparent);
+/*    background-color: transparent;*/
+}
+
+/*
+.main-header::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 93vh;
+    z-index: 1;
+    background: linear-gradient(to top, , transparent);
+    
+}
+*/
+
+.main-header-content {
+    position: absolute;
+    bottom: 0px;
+    margin-left: 30px;
+    color: #fff;
+    
+}
+
+.btn-header {
+    height: 5vh;
+    width: 16vw;
+    margin-bottom: 10px
+}
+
+
+.btn {
+    background-color: aqua;
+    padding: 5px;
+    color: #fff;
+    border: none;
+    
+}
+
+.main-header-content p {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+.footer-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.icon {
+
+}
+
+.icon img {
+    height: 5vh;
+    
+}
